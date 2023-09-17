@@ -5,45 +5,71 @@ Save test cases in a text file (with the TXT extension) in English.
 _________________________________________________________________________________________________________
 
 Scenario A: Searching for "prowly" on google.com, filtering by content category.
-1)
-2)
-3)
+
+1) Verify availability of all content category filters.
+Description: Search for "prowly" on Google to verify availability of all date filters.
+Test steps:
+1. Open a web browser.
+2. Navigate to Google homepage (https://www.google.com).
+3. In search bar enter query "prowly" and press "enter" key.
+4. Click on "All filters" option.
+5. Verify the available filters.
+Expected results: You should see 7 filters: "Images", "Maps", "Videos", "News", "Books", "Flights", "Finance".
+
+2) Searching "prowly" on google.com with filtering by "Maps".
+Description: Search for "prowly" on Google and apply a filter to show result from the "Maps" content category.
+Test steps:
+1. Open a web browser.
+2. Navigate to Google homepage (https://www.google.com).
+3. In search bar enter query "prowly" and press "enter" key.
+4. Click on "All filters" option, then click on "Maps".
+5. Verify the search results.
+Expected results: You should be redirected to subpage https://www.google.com/maps and see localization with company's address.
+
+3) Searching "prowly" on google.com with filtering by "Images".
+Description: Search for "prowly" on Google and apply a filter to show result from the "Images" content category.
+Test steps:
+1. Open a web browser.
+2. Navigate to Google homepage (https://www.google.com).
+3. In search bar, enter query "prowly" and press "enter" key.
+4. Click on "All filters" option, then click on "Images".
+5. Verify the search results.
+Expected results: Search results should display images related to "prowly" with no web pages, videos, news in the results.
 
 
 Scenario B: Searching for the word "prowly" on google.com with filtering by date.
 
 1) Verify availability of all date filters.
 Description: Search for "prowly" on Google to verify availability of all date filters.
-Test Steps:
+Test steps:
 1. Open a web browser.
 2. Navigate to Google homepage (https://www.google.com).
 3. In search bar, enter query "prowly" and press "enter" key.
 4. Click on "Tools" option, then click on "Any time".
 5. Verify the available filters.
-Expected Results: You should see 7 filters: "Any time", "Past hour", "Past 24 hours", "Past week", "Past month", "Past year" and "Custom range...". The "Any time" filter should be selected.
-
+Expected results: You should see 7 filters: "Any time", "Past hour", "Past 24 hours", "Past week", "Past month", "Past year" and "Custom range...". The "Any time" filter should be selected.
 
 2) Searching "prowly" on google.com with filtering by "Past 24 hours".
 Description: Search for "prowly" on Google and filter results to show only those from past 24 hours.
-Test Steps:
+Test steps:
 1. Open a web browser.
 2. Navigate to Google homepage (https://www.google.com).
 3. In search bar, enter query "prowly" and press "enter" key.
-4. Click on "Tools" option, then click on "Past 24 hours.
+4. Click on "Tools" option, then click on "Past 24 hours".
 5. Verify the search results.
-Expected Results: Search results should display content related to "prowly" from the past 24 hours only or not show any documents.
+Expected results: Search results should display content related to "prowly" from the past 24 hours only or not show any documents.
 
 3) Searching "prowly" on google.com with filtering by historical date.
 Description: Search for "prowly" on Google and apply a custom date filter to show results from a historical date.
-Test Input: 1/1/2013
-Test Steps:
+Test input: 1/1/2013
+Test steps:
 1. Open a web browser.
 2. Navigate to Google homepage (https://www.google.com).
 3. In search bar, enter query "prowly" and press "enter" key.
 4. Click on "Tools" option, then click on "Any time" and choose "Custom rande..."
 5. In "To" field type "1/1/2013" date.
 6. Check search results on page.
-Expected Results: Confirm that the search results don't display any content about the company "Prowly". The search results should only display content predating the company's inception.
+Expected results: Confirm that the search results don't display any content about the company "Prowly". The search results should only display content predating the company's inception.
 
 
 
