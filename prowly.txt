@@ -12,12 +12,31 @@ Scenario A: Searching for "prowly" on google.com, filtering by content category.
 
 Scenario B: Searching for the word "prowly" on google.com with filtering by date.
 
-1) Searching "prowly" on google.com with filtering by historical date.
-Description: Search for "prowly" on Google and apply a custom date filter to show results from a historical date.
-Test Input: 1/1/2013
-Expected Results: Confirm that the search results don't display any content about the company "Prowly". The search results should only display content predating the company's inception.
+1) Verify availability of all date filters.
+Description: Search for "prowly" on Google to verify availability of all date filters.
+Test Steps:
+1. Open a web browser.
+2. Navigate to Google homepage (https://www.google.com).
+3. In search bar, enter query "prowly" and press "enter" key.
+4. Click on "Tools" option, then click on "Any time".
+5. Verify the available filters.
+Expected Results: You should see 7 filters: "Any time", "Past hour", "Past 24 hours", "Past week", "Past month", "Past year" and "Custom range...".
+
 
 2)
-3)
+
+3) Searching "prowly" on google.com with filtering by historical date.
+Description: Search for "prowly" on Google and apply a custom date filter to show results from a historical date.
+Test Input: 1/1/2013
+Test Steps:
+1. Open a web browser.
+2. Navigate to Google homepage (https://www.google.com).
+3. In search bar, enter query "prowly" and press "enter" key.
+4. Click on "Tools" option, then click on "Any time" and choose "Custom rande..."
+5. In "To" field type "1/1/2013" date.
+6. Check search results on page.
+
+Expected Results: Confirm that the search results don't display any content about the company "Prowly". The search results should only display content predating the company's inception.
+
 
 
